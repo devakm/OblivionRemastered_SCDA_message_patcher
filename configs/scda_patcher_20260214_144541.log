@@ -1,0 +1,220 @@
+2026-02-14 14:45:41 | DEBUG    | ======================================================================
+2026-02-14 14:45:41 | DEBUG    | SCDA Message Patcher - Log Started
+2026-02-14 14:45:41 | DEBUG    | ======================================================================
+2026-02-14 14:45:41 | DEBUG    | Command line: scda_message_patcher.py configs/scda_patches.ini
+2026-02-14 14:45:41 | DEBUG    | Config file: X:\mod-tools\OOO_SyncGen\SyncGen\configs\scda_patches.ini
+2026-02-14 14:45:41 | DEBUG    | Log file: X:\mod-tools\OOO_SyncGen\SyncGen\configs\scda_patcher_20260214_144541.log
+2026-02-14 14:45:41 | DEBUG    | Options: dry_run=False, validate=False, no_backup=False
+2026-02-14 14:45:41 | INFO     | ======================================================================
+2026-02-14 14:45:41 | INFO     | SCDA Message Patcher
+2026-02-14 14:45:41 | INFO     | ======================================================================
+2026-02-14 14:45:41 | DEBUG    | Timestamp: 2026-02-14T14:45:41.512341
+2026-02-14 14:45:41 | DEBUG    | Mode: LIVE
+2026-02-14 14:45:41 | DEBUG    | Backup: enabled
+2026-02-14 14:45:41 | DEBUG    | Loading configuration from: configs/scda_patches.ini
+2026-02-14 14:45:41 | DEBUG    |   ESP path from config: C:\games\Steam\steamapps\common\Oblivion Remastered\OblivionRemastered\Content\Dev\ObvData\Data\Oscuro's_Oblivion_Overhaul.esp
+2026-02-14 14:45:41 | DEBUG    |   Found script section: [OOOLightOfDawnSpellEffectScript]
+2026-02-14 14:45:41 | DEBUG    |     1 = LOC_SC_OOOLightOfDawnSpellEffectScript_LightofDawnh_02
+2026-02-14 14:45:41 | DEBUG    |     2 = LOC_SC_OOOLightOfDawnSpellEffectScript_Youfeelastro_03
+2026-02-14 14:45:41 | DEBUG    |     3 = LOC_SC_OOOLightOfDawnSpellEffectScript_LightofDawnh_04
+2026-02-14 14:45:41 | DEBUG    |     4 = LOC_SC_OOOLightOfDawnSpellEffectScript_Youfeelabrie_05
+2026-02-14 14:45:41 | DEBUG    |     Total strings: 4
+2026-02-14 14:45:41 | DEBUG    |   Found script section: [zOOODragonborneScript]
+2026-02-14 14:45:41 | DEBUG    |     1 = LOC_SC_zOOODragonborneScript_Ihavekilled0_01
+2026-02-14 14:45:41 | DEBUG    |     2 = LOC_SC_zOOODragonborneScript_Ihavekilled0_02
+2026-02-14 14:45:41 | DEBUG    |     3 = LOC_SC_zOOODragonborneScript_Ihavekilled0_03
+2026-02-14 14:45:41 | DEBUG    |     4 = LOC_SC_zOOODragonborneScript_Ihavekilled0_04
+2026-02-14 14:45:41 | DEBUG    |     5 = LOC_SC_zOOODragonborneScript_Ihavekilled0_05
+2026-02-14 14:45:41 | DEBUG    |     6 = LOC_SC_zOOODragonborneScript_Ihavekilled0_06
+2026-02-14 14:45:41 | DEBUG    |     7 = LOC_SC_zOOODragonborneScript_Ihavekilled0_07
+2026-02-14 14:45:41 | DEBUG    |     8 = LOC_SC_zOOODragonborneScript_Ihavekilled0_09
+2026-02-14 14:45:41 | DEBUG    |     Total strings: 8
+2026-02-14 14:45:41 | DEBUG    | Configuration loaded successfully: 2 script(s)
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     | 📋 Configuration: configs/scda_patches.ini
+2026-02-14 14:45:41 | INFO     |    Scripts to patch: 2
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     |    📜 OOOLightOfDawnSpellEffectScript:
+2026-02-14 14:45:41 | INFO     |       1. LOC_SC_OOOLightOfDawnSpellEffectScript_LightofDawnh_02
+2026-02-14 14:45:41 | DEBUG    |          Length: 54 chars
+2026-02-14 14:45:41 | INFO     |       2. LOC_SC_OOOLightOfDawnSpellEffectScript_Youfeelastro_03
+2026-02-14 14:45:41 | DEBUG    |          Length: 54 chars
+2026-02-14 14:45:41 | INFO     |       3. LOC_SC_OOOLightOfDawnSpellEffectScript_LightofDawnh_04
+2026-02-14 14:45:41 | DEBUG    |          Length: 54 chars
+2026-02-14 14:45:41 | INFO     |       4. LOC_SC_OOOLightOfDawnSpellEffectScript_Youfeelabrie_05
+2026-02-14 14:45:41 | DEBUG    |          Length: 54 chars
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     |    📜 zOOODragonborneScript:
+2026-02-14 14:45:41 | INFO     |       1. LOC_SC_zOOODragonborneScript_Ihavekilled0_01
+2026-02-14 14:45:41 | DEBUG    |          Length: 44 chars
+2026-02-14 14:45:41 | INFO     |       2. LOC_SC_zOOODragonborneScript_Ihavekilled0_02
+2026-02-14 14:45:41 | DEBUG    |          Length: 44 chars
+2026-02-14 14:45:41 | INFO     |       3. LOC_SC_zOOODragonborneScript_Ihavekilled0_03
+2026-02-14 14:45:41 | DEBUG    |          Length: 44 chars
+2026-02-14 14:45:41 | INFO     |       4. LOC_SC_zOOODragonborneScript_Ihavekilled0_04
+2026-02-14 14:45:41 | DEBUG    |          Length: 44 chars
+2026-02-14 14:45:41 | INFO     |       5. LOC_SC_zOOODragonborneScript_Ihavekilled0_05
+2026-02-14 14:45:41 | DEBUG    |          Length: 44 chars
+2026-02-14 14:45:41 | INFO     |       6. LOC_SC_zOOODragonborneScript_Ihavekilled0_06
+2026-02-14 14:45:41 | DEBUG    |          Length: 44 chars
+2026-02-14 14:45:41 | INFO     |       7. LOC_SC_zOOODragonborneScript_Ihavekilled0_07
+2026-02-14 14:45:41 | DEBUG    |          Length: 44 chars
+2026-02-14 14:45:41 | INFO     |       8. LOC_SC_zOOODragonborneScript_Ihavekilled0_09
+2026-02-14 14:45:41 | DEBUG    |          Length: 44 chars
+2026-02-14 14:45:41 | DEBUG    | Verifying ESP file exists...
+2026-02-14 14:45:41 | DEBUG    |   ESP file verified: C:\games\Steam\steamapps\common\Oblivion Remastered\OblivionRemastered\Content\Dev\ObvData\Data\Oscuro's_Oblivion_Overhaul.esp (16839301 bytes)
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     | 📂 ESP file: C:\games\Steam\steamapps\common\Oblivion Remastered\OblivionRemastered\Content\Dev\ObvData\Data\Oscuro's_Oblivion_Overhaul.esp
+2026-02-14 14:45:41 | INFO     |    Size: 16,839,301 bytes
+2026-02-14 14:45:41 | DEBUG    | Reading ESP file into memory...
+2026-02-14 14:45:41 | DEBUG    | ESP file loaded: 16839301 bytes
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     | ──────────────────────────────────────────────────
+2026-02-14 14:45:41 | INFO     | 🔍 Analyzing: OOOLightOfDawnSpellEffectScript
+2026-02-14 14:45:41 | DEBUG    |   Searching for SCPT record with EDID='OOOLightOfDawnSpellEffectScript'...
+2026-02-14 14:45:41 | DEBUG    |     Found matching EDID at record offset 0x0020B528
+2026-02-14 14:45:41 | DEBUG    |     SCDA subrecord: offset=0x0020B57C, size=1458 bytes
+2026-02-14 14:45:41 | INFO     |    ✅ Found at 0x0020B528, SCDA: 1458 bytes
+2026-02-14 14:45:41 | DEBUG    |   Searching SCDA for strings starting with: LOC_SC_OOOLightOfDawnSpellEffectScript
+2026-02-14 14:45:41 | DEBUG    |     SCDA data range: 0x0020B582 - 0x0020BB34 (1458 bytes)
+2026-02-14 14:45:41 | DEBUG    |     0x0020B750: 'LOC_SC_OOOLightOfDawnSpellEffectScript_Asmallvibrat_01' (no format specifier, skipped)
+2026-02-14 14:45:41 | DEBUG    |     [1] 0x0020B7D0: 'LOC_SC_OOOLightOfDawnSpellEffectScript_LightofDaw %.0f' (format: %.0f, len=54)
+2026-02-14 14:45:41 | DEBUG    |     [2] 0x0020B81D: 'LOC_SC_OOOLightOfDawnSpellEffectScript_Youfeelast %.0f' (format: %.0f, len=54)
+2026-02-14 14:45:41 | DEBUG    |     [3] 0x0020B8A0: 'LOC_SC_OOOLightOfDawnSpellEffectScript_LightofDaw %.0f' (format: %.0f, len=54)
+2026-02-14 14:45:41 | DEBUG    |     [4] 0x0020B8ED: 'LOC_SC_OOOLightOfDawnSpellEffectScript_Youfeelabr %.0f' (format: %.0f, len=54)
+2026-02-14 14:45:41 | DEBUG    |     0x0020B972: 'LOC_SC_OOOLightOfDawnSpellEffectScript_Usingtheener_06' (no format specifier, skipped)
+2026-02-14 14:45:41 | DEBUG    |     0x0020B9C9: 'LOC_SC_OOOLightOfDawnSpellEffectScript_Usingtheener_07' (no format specifier, skipped)
+2026-02-14 14:45:41 | DEBUG    |   Found 7 LOC strings total, 4 with format specifiers
+2026-02-14 14:45:41 | INFO     |    Found 4 replacement target(s)
+2026-02-14 14:45:41 | DEBUG    |   Validating string lengths...
+2026-02-14 14:45:41 | DEBUG    |     [1] Length OK: 54 chars (format: %.0f)
+2026-02-14 14:45:41 | DEBUG    |     [2] Length OK: 54 chars (format: %.0f)
+2026-02-14 14:45:41 | DEBUG    |     [3] Length OK: 54 chars (format: %.0f)
+2026-02-14 14:45:41 | DEBUG    |     [4] Length OK: 54 chars (format: %.0f)
+2026-02-14 14:45:41 | INFO     |    ✅ Validation passed
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     | ──────────────────────────────────────────────────
+2026-02-14 14:45:41 | INFO     | 🔍 Analyzing: zOOODragonborneScript
+2026-02-14 14:45:41 | DEBUG    |   Searching for SCPT record with EDID='zOOODragonborneScript'...
+2026-02-14 14:45:41 | DEBUG    |     Found matching EDID at record offset 0x002050FD
+2026-02-14 14:45:41 | DEBUG    |     SCDA subrecord: offset=0x00205147, size=2273 bytes
+2026-02-14 14:45:41 | INFO     |    ✅ Found at 0x002050FD, SCDA: 2273 bytes
+2026-02-14 14:45:41 | DEBUG    |   Searching SCDA for strings starting with: LOC_SC_zOOODragonborneScript
+2026-02-14 14:45:41 | DEBUG    |     SCDA data range: 0x0020514D - 0x00205A2E (2273 bytes)
+2026-02-14 14:45:41 | DEBUG    |     [1] 0x002054CA: 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f' (format: %.0f, len=44)
+2026-02-14 14:45:41 | DEBUG    |     [2] 0x0020555A: 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f' (format: %.0f, len=44)
+2026-02-14 14:45:41 | DEBUG    |     [3] 0x002055EE: 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f' (format: %.0f, len=44)
+2026-02-14 14:45:41 | DEBUG    |     [4] 0x00205682: 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f' (format: %.0f, len=44)
+2026-02-14 14:45:41 | DEBUG    |     [5] 0x00205716: 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f' (format: %.0f, len=44)
+2026-02-14 14:45:41 | DEBUG    |     [6] 0x002057AA: 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f' (format: %.0f, len=44)
+2026-02-14 14:45:41 | DEBUG    |     [7] 0x0020583E: 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f' (format: %.0f, len=44)
+2026-02-14 14:45:41 | DEBUG    |     0x00205955: 'LOC_SC_zOOODragonborneScript_Thegoblinsha_08' (no format specifier, skipped)
+2026-02-14 14:45:41 | DEBUG    |     [8] 0x002059A0: 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f' (format: %.0f, len=44)
+2026-02-14 14:45:41 | DEBUG    |   Found 9 LOC strings total, 8 with format specifiers
+2026-02-14 14:45:41 | INFO     |    Found 8 replacement target(s)
+2026-02-14 14:45:41 | DEBUG    |   Validating string lengths...
+2026-02-14 14:45:41 | DEBUG    |     [1] Length OK: 44 chars (format: %.0f)
+2026-02-14 14:45:41 | DEBUG    |     [2] Length OK: 44 chars (format: %.0f)
+2026-02-14 14:45:41 | DEBUG    |     [3] Length OK: 44 chars (format: %.0f)
+2026-02-14 14:45:41 | DEBUG    |     [4] Length OK: 44 chars (format: %.0f)
+2026-02-14 14:45:41 | DEBUG    |     [5] Length OK: 44 chars (format: %.0f)
+2026-02-14 14:45:41 | DEBUG    |     [6] Length OK: 44 chars (format: %.0f)
+2026-02-14 14:45:41 | DEBUG    |     [7] Length OK: 44 chars (format: %.0f)
+2026-02-14 14:45:41 | DEBUG    |     [8] Length OK: 44 chars (format: %.0f)
+2026-02-14 14:45:41 | INFO     |    ✅ Validation passed
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     | 📦 Creating backup: C:\games\Steam\steamapps\common\Oblivion Remastered\OblivionRemastered\Content\Dev\ObvData\Data\Oscuro's_Oblivion_Overhaul.esp.backup_scda_20260214_144541
+2026-02-14 14:45:41 | DEBUG    |    Source size: 16839301 bytes
+2026-02-14 14:45:41 | DEBUG    |    Backup created successfully
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     | ==================================================
+2026-02-14 14:45:41 | INFO     | 🔧 Applying patches:
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     |    📜 OOOLightOfDawnSpellEffectScript:
+2026-02-14 14:45:41 | INFO     |       ✅ [1] 'LOC_SC_OOOLightOfDawnSpellEffectScript_LightofDaw %.0f'
+2026-02-14 14:45:41 | INFO     |             → 'LOC_SC_OOOLightOfDawnSpellEffectScript_LightofDawnh_02'
+2026-02-14 14:45:41 | DEBUG    |          Offset: 0x0020B7D0, Format: %.0f, Length: 54
+2026-02-14 14:45:41 | INFO     |       ✅ [2] 'LOC_SC_OOOLightOfDawnSpellEffectScript_Youfeelast %.0f'
+2026-02-14 14:45:41 | INFO     |             → 'LOC_SC_OOOLightOfDawnSpellEffectScript_Youfeelastro_03'
+2026-02-14 14:45:41 | DEBUG    |          Offset: 0x0020B81D, Format: %.0f, Length: 54
+2026-02-14 14:45:41 | INFO     |       ✅ [3] 'LOC_SC_OOOLightOfDawnSpellEffectScript_LightofDaw %.0f'
+2026-02-14 14:45:41 | INFO     |             → 'LOC_SC_OOOLightOfDawnSpellEffectScript_LightofDawnh_04'
+2026-02-14 14:45:41 | DEBUG    |          Offset: 0x0020B8A0, Format: %.0f, Length: 54
+2026-02-14 14:45:41 | INFO     |       ✅ [4] 'LOC_SC_OOOLightOfDawnSpellEffectScript_Youfeelabr %.0f'
+2026-02-14 14:45:41 | INFO     |             → 'LOC_SC_OOOLightOfDawnSpellEffectScript_Youfeelabrie_05'
+2026-02-14 14:45:41 | DEBUG    |          Offset: 0x0020B8ED, Format: %.0f, Length: 54
+2026-02-14 14:45:41 | DEBUG    |    Applied 4 patches for this script
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     |    📜 zOOODragonborneScript:
+2026-02-14 14:45:41 | INFO     |       ✅ [1] 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f'
+2026-02-14 14:45:41 | INFO     |             → 'LOC_SC_zOOODragonborneScript_Ihavekilled0_01'
+2026-02-14 14:45:41 | DEBUG    |          Offset: 0x002054CA, Format: %.0f, Length: 44
+2026-02-14 14:45:41 | INFO     |       ✅ [2] 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f'
+2026-02-14 14:45:41 | INFO     |             → 'LOC_SC_zOOODragonborneScript_Ihavekilled0_02'
+2026-02-14 14:45:41 | DEBUG    |          Offset: 0x0020555A, Format: %.0f, Length: 44
+2026-02-14 14:45:41 | INFO     |       ✅ [3] 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f'
+2026-02-14 14:45:41 | INFO     |             → 'LOC_SC_zOOODragonborneScript_Ihavekilled0_03'
+2026-02-14 14:45:41 | DEBUG    |          Offset: 0x002055EE, Format: %.0f, Length: 44
+2026-02-14 14:45:41 | INFO     |       ✅ [4] 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f'
+2026-02-14 14:45:41 | INFO     |             → 'LOC_SC_zOOODragonborneScript_Ihavekilled0_04'
+2026-02-14 14:45:41 | DEBUG    |          Offset: 0x00205682, Format: %.0f, Length: 44
+2026-02-14 14:45:41 | INFO     |       ✅ [5] 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f'
+2026-02-14 14:45:41 | INFO     |             → 'LOC_SC_zOOODragonborneScript_Ihavekilled0_05'
+2026-02-14 14:45:41 | DEBUG    |          Offset: 0x00205716, Format: %.0f, Length: 44
+2026-02-14 14:45:41 | INFO     |       ✅ [6] 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f'
+2026-02-14 14:45:41 | INFO     |             → 'LOC_SC_zOOODragonborneScript_Ihavekilled0_06'
+2026-02-14 14:45:41 | DEBUG    |          Offset: 0x002057AA, Format: %.0f, Length: 44
+2026-02-14 14:45:41 | INFO     |       ✅ [7] 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f'
+2026-02-14 14:45:41 | INFO     |             → 'LOC_SC_zOOODragonborneScript_Ihavekilled0_07'
+2026-02-14 14:45:41 | DEBUG    |          Offset: 0x0020583E, Format: %.0f, Length: 44
+2026-02-14 14:45:41 | INFO     |       ✅ [8] 'LOC_SC_zOOODragonborneScript_Ihavekille %.0f'
+2026-02-14 14:45:41 | INFO     |             → 'LOC_SC_zOOODragonborneScript_Ihavekilled0_09'
+2026-02-14 14:45:41 | DEBUG    |          Offset: 0x002059A0, Format: %.0f, Length: 44
+2026-02-14 14:45:41 | DEBUG    |    Applied 8 patches for this script
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     | 💾 Writing changes...
+2026-02-14 14:45:41 | DEBUG    |    Writing 16839301 bytes to: C:\games\Steam\steamapps\common\Oblivion Remastered\OblivionRemastered\Content\Dev\ObvData\Data\Oscuro's_Oblivion_Overhaul.esp
+2026-02-14 14:45:41 | INFO     |    Total patches: 12
+2026-02-14 14:45:41 | INFO     |    File size: 16,839,301 bytes (original: 16,839,301)
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     | 🔍 Verifying patches:
+2026-02-14 14:45:41 | DEBUG    |    Re-reading ESP file for verification...
+2026-02-14 14:45:41 | DEBUG    |    Verification data loaded: 16839301 bytes
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     |    📜 OOOLightOfDawnSpellEffectScript:
+2026-02-14 14:45:41 | INFO     |       ✅ [1]: Verified
+2026-02-14 14:45:41 | DEBUG    |          'LOC_SC_OOOLightOfDawnSpellEffectScript_LightofDawnh_02' at 0x0020B7D0
+2026-02-14 14:45:41 | INFO     |       ✅ [2]: Verified
+2026-02-14 14:45:41 | DEBUG    |          'LOC_SC_OOOLightOfDawnSpellEffectScript_Youfeelastro_03' at 0x0020B81D
+2026-02-14 14:45:41 | INFO     |       ✅ [3]: Verified
+2026-02-14 14:45:41 | DEBUG    |          'LOC_SC_OOOLightOfDawnSpellEffectScript_LightofDawnh_04' at 0x0020B8A0
+2026-02-14 14:45:41 | INFO     |       ✅ [4]: Verified
+2026-02-14 14:45:41 | DEBUG    |          'LOC_SC_OOOLightOfDawnSpellEffectScript_Youfeelabrie_05' at 0x0020B8ED
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     |    📜 zOOODragonborneScript:
+2026-02-14 14:45:41 | INFO     |       ✅ [1]: Verified
+2026-02-14 14:45:41 | DEBUG    |          'LOC_SC_zOOODragonborneScript_Ihavekilled0_01' at 0x002054CA
+2026-02-14 14:45:41 | INFO     |       ✅ [2]: Verified
+2026-02-14 14:45:41 | DEBUG    |          'LOC_SC_zOOODragonborneScript_Ihavekilled0_02' at 0x0020555A
+2026-02-14 14:45:41 | INFO     |       ✅ [3]: Verified
+2026-02-14 14:45:41 | DEBUG    |          'LOC_SC_zOOODragonborneScript_Ihavekilled0_03' at 0x002055EE
+2026-02-14 14:45:41 | INFO     |       ✅ [4]: Verified
+2026-02-14 14:45:41 | DEBUG    |          'LOC_SC_zOOODragonborneScript_Ihavekilled0_04' at 0x00205682
+2026-02-14 14:45:41 | INFO     |       ✅ [5]: Verified
+2026-02-14 14:45:41 | DEBUG    |          'LOC_SC_zOOODragonborneScript_Ihavekilled0_05' at 0x00205716
+2026-02-14 14:45:41 | INFO     |       ✅ [6]: Verified
+2026-02-14 14:45:41 | DEBUG    |          'LOC_SC_zOOODragonborneScript_Ihavekilled0_06' at 0x002057AA
+2026-02-14 14:45:41 | INFO     |       ✅ [7]: Verified
+2026-02-14 14:45:41 | DEBUG    |          'LOC_SC_zOOODragonborneScript_Ihavekilled0_07' at 0x0020583E
+2026-02-14 14:45:41 | INFO     |       ✅ [8]: Verified
+2026-02-14 14:45:41 | DEBUG    |          'LOC_SC_zOOODragonborneScript_Ihavekilled0_09' at 0x002059A0
+2026-02-14 14:45:41 | INFO     | 
+2026-02-14 14:45:41 | INFO     | ======================================================================
+2026-02-14 14:45:41 | INFO     | ✅ SUCCESS - Patched 2 script(s), 12 string(s)
+2026-02-14 14:45:41 | INFO     | ======================================================================
+2026-02-14 14:45:41 | DEBUG    | Backup saved at: C:\games\Steam\steamapps\common\Oblivion Remastered\OblivionRemastered\Content\Dev\ObvData\Data\Oscuro's_Oblivion_Overhaul.esp.backup_scda_20260214_144541
+2026-02-14 14:45:41 | DEBUG    | 
+2026-02-14 14:45:41 | DEBUG    | ======================================================================
+2026-02-14 14:45:41 | DEBUG    | Session completed: SUCCESS
+2026-02-14 14:45:41 | DEBUG    | Log file: X:\mod-tools\OOO_SyncGen\SyncGen\configs\scda_patcher_20260214_144541.log
+2026-02-14 14:45:41 | DEBUG    | ======================================================================
