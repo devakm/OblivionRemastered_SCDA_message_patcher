@@ -21,7 +21,7 @@ Supported format specifiers:
     %.Nf     - Float with N decimal places (any digit)
 
 Supports multiple scripts in a single config file.
-
+`
 Usage:
     python scda_message_patcher.py config.ini [--dry-run] [--validate] [--no-backup]
 
@@ -38,3 +38,4 @@ Config file format (INI):
     - Keys (1, 2, 3...) define the order; strings are matched by file offset.
     - Values are the replacement LOC_ strings (must be EXACT same length as originals).
     - Comments: Lines starting with # or ; are ignored.
+`
