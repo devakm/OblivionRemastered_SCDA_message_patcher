@@ -4,6 +4,10 @@ Python script to fix Oblivion CS compiler issue with localized script messages c
 
 SCDA Message Patcher - Fix truncated format specifier strings in Oblivion ESP files.
 
+Credit for the discovery of how to fix this issue with a hex editor goes to Hexaee in [this Nexus Mods discussion thread](https://forums.nexusmods.com/topic/13515673-oblivion-remaster-cant-get-message-function-to-print-variable-with-g-or-0f/)
+
+Verified to work with [Magic Loader 2](https://www.nexusmods.com/oblivionremastered/mods/1966)
+
 Example ini file provided for Oscuro's_Oblivion_Overhaul.esp
 
 Patches compiled script data (SCDA) fields in Oblivion ESP files to fix
