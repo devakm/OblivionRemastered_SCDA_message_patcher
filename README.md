@@ -26,6 +26,7 @@ Usage:
     python scda_message_patcher.py config.ini [--dry-run] [--validate] [--no-backup]
 
 Config file format (INI):
+
     [Settings]
     esp_path = C:\\path\\to\\plugin.esp
 
