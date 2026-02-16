@@ -35,8 +35,8 @@ Config file format (INI):
     2 = LOC_SC_ScriptEditorID_ReplacementString_02
 
     - [Settings] section: Required. Contains esp_path to the ESP/ESM file.
-    - Each additional section name is the exact script Editor ID (EDID) to patch.
+    - Each additional section name is the exact script Editor ID (EDID) to patch. You can configure as many as you need.
     - Keys (1, 2, 3...) define the order; strings are matched by file offset.
-    - Values are the replacement LOC_ strings (must be EXACT same length as originals).
+    - Values are the replacement LOC_ strings.  These must be the EXACT same length as the full localization name, thich means that  when you compile in CS you must remove enough letters from the name to account for the added format specifier.
     - Comments: Lines starting with # or ; are ignored.
 `
