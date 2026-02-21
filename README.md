@@ -14,6 +14,7 @@ Patches compiled script data (SCDA) fields in Oblivion ESP files to fix
 truncated message strings with format specifiers.
 
 Supported format specifiers:
+
 `    %g       - Float/int as whole number
     %.0f     - Float with 0 decimal places
     %.1f     - Float with 1 decimal place
